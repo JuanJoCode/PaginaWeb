@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Contacto</title>
 </head>
 <body>
-    
+    <div class="container">
+        <nav class="nav-main"> 
+            <img src="img/logo.png" alt="Rincón del músico LOGO" class="nav-logo">
+        <ul class="nav-menu">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/generos.html">Géneros</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+            <li><a href="/login.html">Inicio de sesión</a></li>
+            <li><a href="/registro.html">Regístrate</a></li>         
+        </ul>
+        </nav>
+        <hr>
+    </div>
+    <div class="contact">
+        <h1 class="title">Contact <span>Us</span></h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="Nombre Completo">
+                    </p>
+                    <p>
+                        <label>Dirección de Correo</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="tel" name="Teléfono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+                        <span class="note"></span>
+                    </p>
+                    <p>
+                    <label>Asunto</label>
+                    <input type="text" name="Asunto">
+                    </p>
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="message" rows="4"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Más información</h3>
+                <ul>
+                    <li><i class="fas fa-map-marked-alt"></i>Calle 100 sur</li>
+                    <li><i class="fas fa-mobile-alt"></i>301 722 9307</li>
+                    <li><i class="fas fa-envelope-open-text"></i>Rcdmúsico@gmail.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, debitis incidunt. Adipisci aliquam veniam fugit voluptates quisquam molestias? Dicta, velit.</p>
+                <p>El rincón del Músico</p>
+            </div>
+        </div>
+        <section class="social">
+            <p>síguenos</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+    </div>
 </body>
 </html>
