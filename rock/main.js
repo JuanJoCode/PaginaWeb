@@ -1,0 +1,16 @@
+ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.news-cards',{delay:500});
+ScrollReveal().reveal('.cards-banner-one', {delay:500});
+ScrollReveal().reveal('.cards-banner-two', {delay:300});
+ScrollReveal().reveal('.showcase1', {delay:300});
+ScrollReveal().reveal('.showcase2', {delay:300});
+ScrollReveal().reveal('.showcase3', {delay:300});
+ScrollReveal().reveal('.showcase4', {delay:300});
+ScrollReveal().reveal('.showcase5', {delay:300});
+ScrollReveal().reveal('.nav-main', {delay:300});
+ScrollReveal().reveal('.principio', {delay:300});
+ScrollReveal().reveal('.links1', {delay:300});
+ScrollReveal().reveal('.historia', {delay:300});
+ScrollReveal().reveal('.instrumentos', {delay:300});
+ScrollReveal().reveal('.links2', {delay:300});
+ScrollReveal().reveal('.bibliografia', {delay:300});
