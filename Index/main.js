@@ -7,3 +7,4 @@ ScrollReveal().reveal('.showcase2', {delay:300});
 ScrollReveal().reveal('.showcase3', {delay:300});
 ScrollReveal().reveal('.showcase4', {delay:300});
 ScrollReveal().reveal('.showcase5', {delay:300});
+
